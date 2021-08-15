@@ -8,8 +8,8 @@ function App () {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <h1>We now have Auth!</h1>
+        <AmplifySignOut />
       </header>
-      <AmplifySignOut />
     </div>
   )
 }
